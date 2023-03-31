@@ -20,7 +20,7 @@ This program uses a custom trained YOLOv8 object detection model to detect faces
     • Open terminal
     • Navigate to clone repository and use: python yolo_attendance.py --model yolov8_custom.pt --classes classes.txt --video1 /home/hrishi/Yolov8/Yolo/1.mp4 --video2 /home/hrishi/Yolov8/Yolo/2.mp4
     • Here: 
-    1. filename = yolov8_custom.py
+    1. filename = yolo_attendance.py
     2. model = name of custom train model
     3. classes = path of classes file (classes file have name of all the registered objects)
     4. video = path of video file
