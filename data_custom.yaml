@@ -1,0 +1,6 @@
+train: D:\programs\train
+val: D:\programs\val
+
+nc: 1
+
+names: ["Hrishi"]
