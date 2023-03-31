@@ -194,7 +194,7 @@ while True:
                 cv2.imwrite(file_path, img)
 
 
-    # Display the frames in separate windows
+    # Display the frames in same window
     combined_frame = cv2.hconcat([frame1, frame2])
     cv2.imshow('2 Videos', combined_frame)
     
