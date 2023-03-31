@@ -159,7 +159,7 @@ while True:
                 
 
                 cv2.imshow(f'{class_name}',face2)
-                cv2.rectangle(frame1, (x1, y1), (x2, y2), (0, 255, 0), 2)
+                cv2.rectangle(frame2, (x1, y1), (x2, y2), (0, 255, 0), 2)
                 
                 # when detected face then update the attandence file
                 file1= open(f"exit{current_day}.txt", 'a')
@@ -195,8 +195,9 @@ while True:
 
 
     # Display the frames in separate windows
-    cv2.imshow('Video 1', frame1)
-    cv2.imshow('Video 2', frame2)
+    combined_frame = cv2.hconcat([frame1, frame2])
+    cv2.imshow('2 Videos', combined_frame)
+    
     if cv2.waitKey(1) & 0xFF == 27:
         break
 
