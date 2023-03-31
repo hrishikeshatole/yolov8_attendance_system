@@ -1,4 +1,4 @@
-# Attendance System using YOLOv8 Object Detection Model
+# Attendance System using YOLOv8 Custom Object Detection Model
 
 This program uses a custom trained YOLOv8 object detection model to detect faces of individuals from a video feed and mark their attendance. The attendance is saved in a text file with the date and time stamp. Cropped images of the individuals with their name, present status and timestamp are also saved for record-keeping purposes.
  
